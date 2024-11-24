@@ -1,0 +1,127 @@
+/* Загальні стилі */
+body {
+  background: linear-gradient(180deg, #bad2db, #fff); /* Градієнт темно-сірого */
+  color: #ffffff; /* Білий текст */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000; /* Жовті заголовки */
+  margin: 0 0 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; /* Видалення стандартних маркерів списку */
+}
+
+/* Бокове меню */
+.sidebar {
+  width: auto;
+  background-color: #143d4d; /* Темно-сірий фон */
+  padding: 20px 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Тінь */
+}
+
+.sidebar .nav {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar .nav li {
+  margin-bottom: 15px;
+}
+
+.sidebar .nav li a {
+  color: #ffffff; /* Білий текст для посилань */
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.sidebar .nav li a:hover {
+  color: #000000; /* Чорний текст при наведенні */
+  background-color: #ffeb3b; /* Жовтий фон при наведенні */
+}
+
+.sidebar .nav li a.active {
+  font-weight: bold;
+}
+
+/* Контент */
+.content {
+  flex-grow: 1; /* Розтягнення контенту на весь доступний простір */
+  padding: 20px;
+  background-color: #2e2e2e; /* Темно-сірий фон */
+  color: #ffffff;
+}
+
+/* Секції контенту */
+.content-section {
+  background: #3c6e82;
+  color: #ffffff;
+  padding: 15px 25px;
+  border: 1px solid #444444;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.article-title {
+  color: #000;
+  font-weight: bold;
+}
+
+a.article-title:hover {
+  color: #000000;
+  background-color: #ffeb3b;
+  text-decoration: none;
+  padding: 2px 4px;
+}
+
+.article-content {
+  white-space: pre-line;
+  color: #dcdcdc;
+}
+
+.article-metadata {
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #444444;
+  font-size: 0.9rem;
+}
+
+.article-metadata a:hover {
+  color: #000000;
+  background-color: #ffeb3b;
+  text-decoration: none;
+}
+
+/* Зображення */
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+  border: 2px solid #444444;
+  border-radius: 50%;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  border: 3px solid #444444;
+  border-radius: 50%;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+  color: #000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
